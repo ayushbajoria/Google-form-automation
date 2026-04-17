@@ -39,7 +39,7 @@ public class TestCases {
         Wrappers.enterText(practicingAutomationTextArea, practicingAutomationText + " " + epochTimeString);
 
         System.out.println("wait 3");
-        Wrappers.radioButton(driver, "6-10");
+        Wrappers.radioButton(driver, "6 - 10");
                Thread.sleep(3000);
         System.out.println("wait 4");
         
@@ -69,9 +69,9 @@ public class TestCases {
 
         Thread.sleep(3000);
         System.out.println("wait 7");
-       // WebElement successMsgElement = driver.findElement(By.xpath("//div[contains(@class,'vHW')]"));
+        WebElement successMsgElement = driver.findElement(By.xpath("//div[contains(@class,'vHW')]"));
 
-      //  System.out.println(successMsgElement.getText());
+        System.out.println(successMsgElement.getText());
      }
     /*
      * Do not change the provided methods unless necessary, they will help in automation and assessment

@@ -30,7 +30,7 @@ public class Wrappers {
         }
         }
 
-    public static void enterText ( WebDriver driver, By locator, String text)
+    /*public static void enterText ( WebDriver driver, By locator, String text)
     {
         try{
             WebElement element = driver.findElement(locator);
@@ -40,12 +40,12 @@ public class Wrappers {
             e.printStackTrace();
         }
         }
-
+*/
         public static void radioButton( ChromeDriver driver, String radioButtonText)
     {
         try{
-           WebElement element = driver.findElement(By.xpath("//span[contains(@class, '0vPDhc') and contains(text(),'" +
-             radioButtonText + "')]/../../..//div[@class = 'vd3tt']" ));
+           WebElement element = driver.findElement(By.xpath("//span[contains(@class, 'OvPDhc') and contains(text(),'" 
+           + radioButtonText + "')]/../../..//div[@class = 'vd3tt']" ));
             element.click();
         }catch(Exception e){
             e.printStackTrace();
@@ -55,8 +55,8 @@ public class Wrappers {
          public static void checkBox( ChromeDriver driver, String checkboxText)
     {
         try{
-           WebElement element =driver.findElement(By.xpath("//span[contains(@class, 'n5vBHf') and contains(text(),'" +
-             checkboxText + "')]/../../..preceding-sibling::div[contains(@id, 'i')]" ));
+           WebElement element =driver.findElement(By.xpath("//span[contains(@class, 'n5vBHf') and contains(text(),'" 
+           + checkboxText + "')]/../../preceding-sibling::div[contains(@id, 'i')]"));
             element.click();
         }catch(Exception e){
             e.printStackTrace();
