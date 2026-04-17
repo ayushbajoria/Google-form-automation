@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.InterruptedIOException;
+import java.time.Duration;
 import java.util.List;
 import java.util.logging.Level;
 // import io.github.bonigarcia.wdm.WebDriverManager;
@@ -45,11 +46,11 @@ public class TestCases {
         Wrappers.checkBox(driver, "Java");
         Wrappers.checkBox(driver, "Selenium");
         Wrappers.checkBox(driver, "TestNG");
-        WebElement dropDoWebElement = driver.findElement(By.xpath("//div[contains(@class,'Deh1R')]"));
+        WebElement dropDoWebElement = driver.findElement(By.xpath("//div[contains(@class,'DEh1R')]"));
         System.out.println("wait 5");
         Thread.sleep(3000);
         Wrappers.clickOnElement(driver, dropDoWebElement);
-        List<WebElement> dropDownList = driver.findElements(By.xpath("//div[contains(@class,'ncFHed')]//span[not(contains(text(),'Choose'"));
+        List<WebElement> dropDownList = driver.findElements(By.xpath("//div[contains(@class,'ncFHed')]//span[not(contains(text(),'Choose'))]"));
         Wrappers.dropDownClickByLoop(dropDownList, "Mr"); 
 
         WebElement dateInputBox = driver.findElement(By.xpath("//div[contains(@class,'A6uyJd')]//input"));
@@ -92,9 +93,11 @@ public class TestCases {
 
         System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "build/chromedriver.log"); 
 
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
 
         driver.manage().window().maximize();
+        driver.get("https://forms.gle/wjPkzeSEk1CM7KgGA");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
     @AfterTest

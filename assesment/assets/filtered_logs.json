@@ -5,12 +5,80 @@
             "RESPONSE": null
         },
         {
-            "COMMAND": "[1776416444.935][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
-            "RESPONSE": "[1776416445.637][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"147.0.7727.57\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"147.0.7727.57 (b4f28b5637d02137aa7f80eb8d589b0c005c3426-refs/branch-heads/7727_49@{#7})\",\n         \"userDataDir\": \"C:\\\\Users\\\\arpit\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir6436_493069372\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:63938\"\n      },\n      \"goog:processID\": 16000,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"aa4b75e3c99018b9486491b2f8ef1f7a\"\n}\n"
+            "COMMAND": "[1776446375.688][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [  ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1776446376.660][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"147.0.7727.57\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"147.0.7727.57 (b4f28b5637d02137aa7f80eb8d589b0c005c3426-refs/branch-heads/7727_49@{#7})\",\n         \"userDataDir\": \"C:\\\\Users\\\\arpit\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir9996_1731634110\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:51962\"\n      },\n      \"goog:processID\": 21548,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"cde565554703d4daaddfca2fe5e1fa1b\"\n}\n"
         },
         {
-            "COMMAND": "[1776416445.796][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] COMMAND MaximizeWindow {\n}\n",
-            "RESPONSE": "[1776416445.828][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] RESPONSE MaximizeWindow {\n   \"height\": 832,\n   \"width\": 1552,\n   \"x\": -7,\n   \"y\": -7\n}\n"
+            "COMMAND": "[1776446376.939][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1776446376.984][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE MaximizeWindow {\n   \"height\": 832,\n   \"width\": 1552,\n   \"x\": -7,\n   \"y\": -7\n}\n"
+        },
+        {
+            "COMMAND": "[1776446376.989][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND Navigate {\n   \"url\": \"https://forms.gle/wjPkzeSEk1CM7KgGA\"\n}\n",
+            "RESPONSE": "[1776446382.995][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1776446383.003][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND SetTimeouts {\n   \"implicit\": 30000\n}\n",
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1776446383.027][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'k3kHxc')]//input\"\n}\n",
+            "RESPONSE": "[1776446383.053][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.7\"\n}\n"
+        },
+        {
+            "COMMAND": "[1776446386.069][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND ClearElement {\n   \"id\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.7\"\n}\n",
+            "RESPONSE": "[1776446386.127][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1776446386.136][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND TypeElement {\n   \"id\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.7\",\n   \"text\": \"Crio Learner\",\n   \"value\": [ \"C\", \"r\", \"i\", \"o\", \" \", \"L\", \"e\", \"a\", \"r\", \"n\", \"e\", \"r\" ]\n}\n",
+            "RESPONSE": "[1776446386.290][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1776446386.296][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//textarea[contains(@class, 'tL9Q4c')]\"\n}\n",
+            "RESPONSE": "[1776446386.313][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.8\"\n}\n"
+        },
+        {
+            "COMMAND": "[1776446386.320][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND ClearElement {\n   \"id\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.8\"\n}\n",
+            "RESPONSE": "[1776446386.357][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1776446386.364][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND TypeElement {\n   \"id\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.8\",\n   \"text\": \"I want to be the best QA Engineer! 1776446386\",\n   \"value\": [ \"I\", \" \", \"w\", \"a\", \"n\", \"t\", \" \", \"t\", \"o\", \" \", \"b\", \"e\", \" \", \"t\", \"h\", \"e\", \" \", \"b\", \"e\", \"s\", \"t\", \" \", \"Q\", \"A\", \" \", \"E\", \"n\", \"g\", \"i\", \"n\", \"e\", \"e\", \"r\", \"!\", \" \", \"1\", \"7\", \"7\", \"6\", \"4\", \"4\", \"6\", \"3\", \"8\", \"6\" ]\n}\n",
+            "RESPONSE": "[1776446386.586][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1776446386.592][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@class, '0vPDhc') and contains(text(),'6-10')]/../../..//div[@class = 'vd3tt']\"\n}\n",
+            "RESPONSE": "[1776446416.625][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(@class, '0vPDhc') and contains(text(),'6-10')]/../../..//div[@class = 'vd3tt']\"}\n  (Session info: chrome=147.0.7727.57)\n"
+        },
+        {
+            "COMMAND": "[1776446419.664][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@class, 'n5vBHf') and contains(text(),'Java')]/../../..preceding-sibling::div[contains(@id, 'i')]\"\n}\n",
+            "RESPONSE": "[1776446419.693][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression //span[contains(@class, 'n5vBHf') and contains(text(),'Java')]/../../..preceding-sibling::div[contains(@id, 'i')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class, 'n5vBHf') and contains(text(),'Java')]/../../..preceding-sibling::div[contains(@id, 'i')]' is not a valid XPath expression.\n  (Session info: chrome=147.0.7727.57)\n"
+        },
+        {
+            "COMMAND": "[1776446419.709][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@class, 'n5vBHf') and contains(text(),'Selenium')]/../../..preceding-sibling::div[contains(@id, 'i')]\"\n}\n",
+            "RESPONSE": "[1776446419.736][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression //span[contains(@class, 'n5vBHf') and contains(text(),'Selenium')]/../../..preceding-sibling::div[contains(@id, 'i')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class, 'n5vBHf') and contains(text(),'Selenium')]/../../..preceding-sibling::div[contains(@id, 'i')]' is not a valid XPath expression.\n  (Session info: chrome=147.0.7727.57)\n"
+        },
+        {
+            "COMMAND": "[1776446419.749][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(@class, 'n5vBHf') and contains(text(),'TestNG')]/../../..preceding-sibling::div[contains(@id, 'i')]\"\n}\n",
+            "RESPONSE": "[1776446419.781][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement ERROR invalid selector: Unable to locate an element with the xpath expression //span[contains(@class, 'n5vBHf') and contains(text(),'TestNG')]/../../..preceding-sibling::div[contains(@id, 'i')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class, 'n5vBHf') and contains(text(),'TestNG')]/../../..preceding-sibling::div[contains(@id, 'i')]' is not a valid XPath expression.\n  (Session info: chrome=147.0.7727.57)\n"
+        },
+        {
+            "COMMAND": "[1776446419.793][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'DEh1R')]\"\n}\n",
+            "RESPONSE": "[1776446419.810][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.29\"\n}\n"
+        },
+        {
+            "COMMAND": "[1776446422.842][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'ncFHed')]//span[not(contains(text(),'Choose'))]\"\n}\n",
+            "RESPONSE": "[1776446429.382][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.32\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.33\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.34\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.35\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.36\"\n} ]\n"
+        },
+        {
+            "COMMAND": "[1776446429.388][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND GetElementText {\n   \"id\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.32\"\n}\n",
+            "RESPONSE": "[1776446429.411][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE GetElementText \"Mr\"\n"
+        },
+        {
+            "COMMAND": "[1776446429.416][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND ClickElement {\n   \"id\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.32\"\n}\n",
+            "RESPONSE": "[1776446429.532][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1776446429.536][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'A6uyJd')]//input\"\n}\n",
+            "RESPONSE": "[1776446429.553][INFO]: [cde565554703d4daaddfca2fe5e1fa1b] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.8AEB2DB1E7F9DFD0CDA5CBBECD010AF2.d.63E0E888EE044CC5B53018F4703D9631.e.9\"\n}\n"
         }
     ]
 }
