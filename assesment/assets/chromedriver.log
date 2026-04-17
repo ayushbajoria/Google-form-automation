@@ -1,0 +1,136 @@
+[1776416444.861][INFO]: Starting ChromeDriver 147.0.7727.57 (b4f28b5637d02137aa7f80eb8d589b0c005c3426-refs/branch-heads/7727_49@{#7}) on port 23875
+[1776416444.861][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1776416444.866][INFO]: ChromeDriver was started successfully on port 23875
+[1776416444.935][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1776416444.937][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1776416444.937][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1776416444.938][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1776416444.938][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1776416444.970][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\arpit\AppData\Local\Temp\scoped_dir6436_493069372" data:,
+[1776416445.632][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1776416445.637][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "147.0.7727.57",
+      "chrome": {
+         "chromedriverVersion": "147.0.7727.57 (b4f28b5637d02137aa7f80eb8d589b0c005c3426-refs/branch-heads/7727_49@{#7})",
+         "userDataDir": "C:\\Users\\arpit\\AppData\\Local\\Temp\\scoped_dir6436_493069372"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63938"
+      },
+      "goog:processID": 16000,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "aa4b75e3c99018b9486491b2f8ef1f7a"
+}
+[1776416445.796][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] COMMAND MaximizeWindow {
+}
+[1776416445.796][INFO]: Waiting for pending navigations...
+[1776416445.797][INFO]: Done waiting for pending navigations. Status: ok
+[1776416445.828][INFO]: Waiting for pending navigations...
+[1776416445.828][INFO]: Done waiting for pending navigations. Status: ok
+[1776416445.828][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -7,
+   "y": -7
+}
+[1776416445.835][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] COMMAND CloseWindow {
+}
+[1776416445.947][INFO]: [aa4b75e3c99018b9486491b2f8ef1f7a] RESPONSE CloseWindow [  ]
