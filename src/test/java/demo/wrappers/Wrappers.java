@@ -101,11 +101,11 @@ public class Wrappers {
                 e.printStackTrace();
             }
         }
-
+       
         public static String getdateSevenDaysAgo(int days){
             LocalDate currentDate = LocalDate.now();
             LocalDate dateMinus7Days = currentDate.minusDays(days);
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("mm/DD/yyyy");
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
             String formattedDate = dateMinus7Days.format(formatter);
             return formattedDate;
         }

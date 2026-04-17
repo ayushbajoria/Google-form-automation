@@ -34,9 +34,9 @@ public class TestCases {
         Wrappers.enterText(nameInputBox, "Crio Learner");
         WebElement practicingAutomationTextArea = driver.findElement(By.xpath("//textarea[contains(@class, 'tL9Q4c')]"));
         String practicingAutomationText = "I want to be the best QA Engineer!";
-        String epochTimString = Wrappers.getEpochTimeAsString();
+        String epochTimeString = Wrappers.getEpochTimeAsString();
         System.out.println("wait 2");
-        Wrappers.enterText(practicingAutomationTextArea, practicingAutomationText + " " + epochTimString);
+        Wrappers.enterText(practicingAutomationTextArea, practicingAutomationText + " " + epochTimeString);
 
         System.out.println("wait 3");
         Wrappers.radioButton(driver, "6-10");
@@ -58,8 +58,9 @@ public class TestCases {
         Thread.sleep(3000);
         System.out.println("wait 6");
         Wrappers.enterText(dateInputBox, sevenDaysAgoDate);
-        WebElement hourElement = driver.findElement(By.xpath("//input[aria-label='Hour']"));
-        WebElement minElement = driver.findElement(By.xpath("//input[aria-label='Minute']"));
+
+        WebElement hourElement = driver.findElement(By.xpath("//input[@aria-label='Hour']"));
+        WebElement minElement = driver.findElement(By.xpath("//input[@aria-label='Minute']"));
         WebElement submitBtn=driver.findElement(By.xpath("//div[@class='lRwqcd']/div"));
 
         Wrappers.enterText(hourElement, "07");
@@ -68,9 +69,9 @@ public class TestCases {
 
         Thread.sleep(3000);
         System.out.println("wait 7");
-        WebElement sucessMsgElement = driver.findElement(By.xpath("//div[contains(@class,'vHW')]"));
+       // WebElement successMsgElement = driver.findElement(By.xpath("//div[contains(@class,'vHW')]"));
 
-        System.out.println(sucessMsgElement.getText());
+      //  System.out.println(successMsgElement.getText());
      }
     /*
      * Do not change the provided methods unless necessary, they will help in automation and assessment
