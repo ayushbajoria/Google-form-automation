@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -28,7 +30,13 @@ public class TestCases {
 
      @Test
      public void testCase01() throws InterruptedException{
-        WebElement nameInputBox = driver.findElement(By.xpath("//div[contains(@class,'k3kHxc')]//input"));
+       // WebElement nameInputBox = driver.findElement(By.xpath("//div[contains(@class,'k3kHxc')]//input"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement nameInputBox = wait.until(
+        ExpectedConditions.visibilityOfElementLocated(
+        By.xpath("//div[contains(@class,'k3kHxc')]//input")
+    )
+);
         System.out.println("wait 1");
         Thread.sleep(3000);
         Wrappers.enterText(nameInputBox, "Crio Learner");
@@ -97,8 +105,16 @@ public class TestCases {
         driver = new ChromeDriver();
 
         driver.manage().window().maximize();
+       // driver.get("https://forms.gle/wjPkzeSEk1CM7KgGA");
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("https://forms.gle/wjPkzeSEk1CM7KgGA");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+wait.until(ExpectedConditions.visibilityOfElementLocated(
+        By.xpath("//div[contains(@class,'k3kHxc')]//input")
+));
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
     @AfterTest
